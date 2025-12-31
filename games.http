@@ -1,1 +1,17 @@
+//THIS FILE MIMICS A FRONTEND API CALL
 GET http://localhost:5068/games
+
+###
+GET http://localhost:5068/games/1
+
+###
+POST http://localhost:5068/games
+Content-Type: application/json
+
+//TEST DATA
+{
+    "name": "Minecraft",
+    "genre": "Kids and Family",
+    "price": 19.99,
+    "releaseDate": "2011-11-18"
+}
