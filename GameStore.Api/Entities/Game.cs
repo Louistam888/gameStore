@@ -1,5 +1,5 @@
 namespace GameStore.Api.Entities;
-
+//ENTITIES DESCRIBE SHAPE OF DATA, REPRESENT ONE ROW IN ATABLE
 public class Game
 {
     public int Id { get; set; }
